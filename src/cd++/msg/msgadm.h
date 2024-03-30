@@ -46,7 +46,7 @@ private:
 
 	bool running ;
 	MessageAdmin();	// Default constructor
-	typedef pair< Message*, ProcId > UnprocessedMsg ;
+	typedef std::pair< Message*, ProcId > UnprocessedMsg ;
 	typedef std::list< UnprocessedMsg > UnprocessedMsgQueue ;
 	UnprocessedMsgQueue unprocessedQueue;
 

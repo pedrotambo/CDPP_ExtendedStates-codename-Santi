@@ -34,7 +34,7 @@ class VTime ;
 class SpecNode ;
 
 /** declarations **/
-typedef pair <std::string, value_ptr> PortValue;
+typedef std::pair <std::string, value_ptr> PortValue;
 
 class SingleLocalTransAdmin ;
 
